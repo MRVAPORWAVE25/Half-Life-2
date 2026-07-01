@@ -7,7 +7,7 @@
       <script>
         const params = new URLSearchParams(window.location.search);
         params.set("t", Date.now());
-        const safeUrl = "https://cdn.jsdelivr.net/gh/MRVAPORWAVE25/Half-Life-2@main/index.html" + "?" + params.toString();
+        const safeUrl = "https://cdn.jsdelivr.net/gh/MRVAPORWAVE25/Half-Life-2@main/hl2_launcher.html" + "?" + params.toString();
         let l = `
         \x3Cscript>
         launch();
